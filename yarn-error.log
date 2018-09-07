@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sergiocortes1\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel-preset-react@6.24.1 babel.preset-env@1.5.2
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle8i\bin;C:\Program Files (x86)\Oracle\jre\1.1.7\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\CaseWare IDEA\IDEA;C:\Program Files (x86)\CaseWare IDEA\IDEA;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Users\sergiocortes1\AppData\Local\Microsoft\WindowsApps;;C:\Users\sergiocortes1\AppData\Local\Programs\Fiddler;C:\Users\sergiocortes1\AppData\Roaming\npm
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel.preset-env: Not found
+      at Request.params.callback [as _callback] (C:\Users\sergiocortes1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:64202:18)
+      at Request.self.callback (C:\Users\sergiocortes1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137468:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\sergiocortes1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:138440:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\sergiocortes1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:138362:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1085:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Sergio Cortes",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
